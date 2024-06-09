@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.equation {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.equation-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+#solveButton,
+#addEquationButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#solveButton:hover,
+#addEquationButton:hover {
+    background-color: #45a049;
+}
+
+#equationResult {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+
+
+p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#equationInputs {
+    margin-bottom: 20px;
+}
+
+.equation {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equation-text {
+    flex: 1 1 100%;
+}
+
+input[type="text"],
+button {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 40%;
+    }
+}
